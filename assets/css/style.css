@@ -116,7 +116,6 @@ section {
 html {
   overflow-y: scroll;
 }
-
 /* Align radios and text inputs with their label */
 
 input[type="radio"] {
@@ -163,7 +162,7 @@ sub {
 }
 
 /* 1.2. Clear Fix
-   ========================== */
+========================== */
 
 .cf:before,
 .cf:after {
@@ -182,6 +181,8 @@ sub {
 body {
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #000000;
+  color: white;
 }
 
 a {
@@ -201,27 +202,97 @@ li {
   margin: 0 auto;
 }
 /*=================================
-  Header styling starts here
+Header styling starts here
+=================================*/
+
+header {
+  background-image: url("https://image.shutterstock.com/image-photo/close-shot-romantic-cute-pink-600w-1777060052.jpg");
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  text-align: center;
+  height: 1000px;
+  color: #f5f5f6;
+}
+
+.contact {
+  margin-left: 1000px;
+}
+button {
+  border-color: #3fb17e;
+  background: none;
+  color: #3fb17e;
+  font-size: large;
+}
+.Welcome {
+  padding-right: 800px;
+  padding-top: 300px;
+  width: 30%;
+  font-size: 71px;
+  font-style: oblique;
+  align-content: center;
+}
+/*=================================
+Header styling ends here
 =================================*/
 
 /*=================================
-  Header styling ends here
+main styling starts here
+=================================*/
+.Classification ul {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.Classification li {
+  width: 25%;
+  display: flex;
+  font-size: 40px;
+}
+.Classification img {
+  height: 50px;
+  width: 50px;
+  display: inline;
+  float: left;
+}
+.Classification {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Classification li div {
+  margin-left: 15%;
+}
+.Info {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Info li {
+  width: 25%;
+  display: flex;
+  font-size: 40px;
+}
+
+.Info ul {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+/*=================================
+main styling ends here
 =================================*/
 
 /*=================================
-  main styling starts here
+footer styling starts here
 =================================*/
 
 /*=================================
-  main styling ends here
-=================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/
-
-/*=================================
-  footer styling ends here
+footer styling ends here
 =================================*/
 
 /*media query starts*/
